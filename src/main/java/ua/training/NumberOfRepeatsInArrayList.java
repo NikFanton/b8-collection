@@ -18,8 +18,6 @@ public class NumberOfRepeatsInArrayList {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(Arrays.asList(2, 3, 4, 5, 1, 2, 3, 5, 3, 2, 1, 9));
-        System.out.println(list);
-        Map<Integer, Integer> map = calcRepeats(list);
-        System.out.println(map);
+        System.out.println(calcRepeats(list));
     }
 }
